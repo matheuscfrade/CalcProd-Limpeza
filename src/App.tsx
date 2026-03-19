@@ -28,7 +28,7 @@ const CATEGORIES = [
     items: [
       { id: 'pisos_frios', name: 'Pisos Frios', index: 800, minIndex: 800, maxIndex: 1200, unit: 'm²' },
       { id: 'pisos_acarpetados', name: 'Pisos Acarpetados', index: 800, minIndex: 800, maxIndex: 1200, unit: 'm²' },
-      { id: 'laboratorios', name: 'Laboratórios', index: 360, minIndex: 360, maxIndex: 400, unit: 'm²' },
+      { id: 'laboratorios', name: 'Laboratórios', index: 360, minIndex: 360, maxIndex: 450, unit: 'm²' },
       { id: 'almoxarifados', name: 'Almoxarifados / Galpões', index: 1500, minIndex: 1500, maxIndex: 2500, unit: 'm²' },
       { id: 'oficinas', name: 'Oficinas', index: 1200, minIndex: 1200, maxIndex: 1800, unit: 'm²' },
       { id: 'areas_livres', name: 'Saguão, Hall e Salão', index: 1000, minIndex: 1000, maxIndex: 1500, unit: 'm²' },
@@ -50,9 +50,9 @@ const CATEGORIES = [
     title: 'Esquadrias e Vidros',
     icon: <LayoutGrid className="w-5 h-5" />,
     items: [
-      { id: 'vidros_comuns', name: 'Face Interna e Externa (sem risco)', index: 220, minIndex: 220, maxIndex: 300, unit: 'm²' },
-      { id: 'vidros_risco', name: 'Face Externa (com risco/balancim)', index: 110, minIndex: 110, maxIndex: 150, unit: 'm²' },
-      { id: 'fachadas', name: 'Fachadas Envidraçadas (com risco)', index: 110, minIndex: 110, maxIndex: 150, unit: 'm²' },
+      { id: 'vidros_comuns', name: 'Face Interna e Externa (sem risco)', index: 300, minIndex: 300, maxIndex: 380, unit: 'm²' },
+      { id: 'vidros_risco', name: 'Face Externa (com risco/balancim)', index: 130, minIndex: 130, maxIndex: 160, unit: 'm²' },
+      { id: 'fachadas', name: 'Fachadas Envidraçadas (com risco)', index: 130, minIndex: 130, maxIndex: 160, unit: 'm²' },
     ]
   },
   {
@@ -60,9 +60,7 @@ const CATEGORIES = [
     title: 'Áreas Hospitalares',
     icon: <Stethoscope className="w-5 h-5" />,
     items: [
-      { id: 'hosp_critica', name: 'Áreas Críticas', index: 330, minIndex: 330, maxIndex: 360, unit: 'm²' },
-      { id: 'hosp_semicritica', name: 'Áreas Semicríticas', index: 600, minIndex: 600, maxIndex: 660, unit: 'm²' },
-      { id: 'hosp_naocritica', name: 'Áreas Não Críticas', index: 850, minIndex: 850, maxIndex: 900, unit: 'm²' },
+      { id: 'hosp_geral', name: 'Áreas Hospitalares e assemelhadas', index: 360, minIndex: 360, maxIndex: 450, unit: 'm²' },
     ]
   }
 ];
